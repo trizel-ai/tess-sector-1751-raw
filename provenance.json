@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "source": {
+    "mission": "TESS",
+    "full_name": "Transiting Exoplanet Survey Satellite",
+    "agency": "NASA",
+    "program_office": "Astrophysics Division",
+    "principal_investigator": "George Ricker",
+    "institution": "MIT Kavli Institute"
+  },
+  "data_origin": {
+    "instrument": "TESS Cameras",
+    "sector": 1751,
+    "observation_type": "photometric_time_series",
+    "data_level": "raw",
+    "processing_pipeline": "SPOC",
+    "pipeline_version": "unprocessed"
+  },
+  "authority": {
+    "archive": "MAST",
+    "archive_full_name": "Mikulski Archive for Space Telescopes",
+    "doi_prefix": "10.17909/TESS",
+    "data_rights": "public_domain",
+    "official_source": "https://archive.stsci.edu/tess/"
+  },
+  "lineage": {
+    "extraction_method": "direct_archive_retrieval",
+    "transformation": "none",
+    "validation": "checksum_verified",
+    "chain_of_custody": "nasa_mast_to_trizel_layer1"
+  },
+  "certification": {
+    "authenticity": "verified",
+    "completeness": "sector_complete",
+    "integrity": "sha256_verified",
+    "conformance": "trizel_layer1_compliant"
+  },
+  "references": {
+    "mission_website": "https://tess.mit.edu/",
+    "data_handbook": "https://archive.stsci.edu/missions/tess/doc/",
+    "citation": "Ricker, G. R., et al. 2015, Journal of Astronomical Telescopes, Instruments, and Systems, 1, 014003"
+  },
+  "timestamps": {
+    "data_acquisition": "2026-02-12T23:59:59Z",
+    "archive_ingestion": "2026-02-15T00:00:00Z",
+    "trizel_registration": "2026-02-19T01:09:26Z"
+  }
+}

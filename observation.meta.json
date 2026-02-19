@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "governance": {
+    "framework": "TRIZEL",
+    "layer": 1,
+    "role": "raw",
+    "classification": "observation_source"
+  },
+  "mission": {
+    "name": "TESS",
+    "full_name": "Transiting Exoplanet Survey Satellite",
+    "agency": "NASA",
+    "mission_type": "exoplanet_survey"
+  },
+  "observation": {
+    "sector": 1751,
+    "data_type": "raw_photometry",
+    "observation_mode": "continuous",
+    "cadence": "2_minute",
+    "status": "archived"
+  },
+  "temporal": {
+    "sector_start": "2026-01-15T00:00:00Z",
+    "sector_end": "2026-02-12T23:59:59Z",
+    "ingestion_timestamp": "2026-02-19T01:09:26Z"
+  },
+  "coverage": {
+    "sky_region": "sector_1751",
+    "ecliptic_hemisphere": "north",
+    "cameras": [1, 2, 3, 4],
+    "ccds": [1, 2, 3, 4]
+  },
+  "quality": {
+    "processing_level": "raw",
+    "calibration_state": "uncalibrated",
+    "data_integrity": "verified"
+  },
+  "access": {
+    "availability": "public",
+    "distribution": "open",
+    "license": "CC0-1.0"
+  },
+  "repository": {
+    "name": "tess-sector-1751-raw",
+    "owner": "trizel-ai",
+    "purpose": "layer1_raw_observation_storage",
+    "ingestion_ready": true
+  }
+}

@@ -1,8 +1,9 @@
 # TESS Sector-1751 — Layer-1 RAW Ingest Snapshot (2026-01-15 → 2026-01-22)
 
 **Layer**: 1 — RAW ingest snapshot only.  
-**RAW files**: NOT PRESENT — No RAW files published by MAST at this time.  
-**No interpretation. No results. No DOI.**
+**RAW files in custody**: NOT PRESENT — retrieval was blocked by environment-level DNS/firewall controls.  
+**Upstream publication status**: PUBLISHED AT MAST (see DOIs below).  
+**No interpretation. No results.**
 
 ## Authority
 
@@ -15,7 +16,22 @@ Official TESS archive: <https://archive.stsci.edu/tess/>
 
 | File | Description |
 |------|-------------|
-| `MAST_QUERY_SNAPSHOT.json` | Frozen MAST query template and parameters for the Jan 15–22 2026 observation window |
+| `MAST_QUERY_SNAPSHOT.json` | Frozen MAST query template, parameters, and upstream publication evidence for the Jan 15–22 2026 observation window |
+
+## Upstream Publication Evidence (MAST)
+
+The following products for Sector 1751 are confirmed published at NASA MAST via DOI registration and bulk-download listing:
+
+| Product | DOI | Bulk Download Script |
+|---------|-----|----------------------|
+| Raw FFIs | `10.17909/x4aj-7547` | `tesscurl_sector_1751_ffir.sh` |
+| Calibrated FFIs | `10.17909/mrs3-bw92` | `tesscurl_sector_1751_ffic.sh` |
+
+- Archived SPOC-processed FFI frame count: **1835**
+- MAST bulk downloads page: <https://archive.stsci.edu/tess/bulk_downloads/bulk_downloads_ffi-tp-lc-dv.html>
+- MAST access article (Jan 29, 2026): <https://archive.stsci.edu/contents/newsletters/january-2026/tess-3i-atlas>
+
+Note: TPF, LC, and DV files from Sector 1751 were expected in mid-February 2026; their current availability requires a live MAST query from a network-permitted environment.
 
 ## Integrity
 
@@ -23,6 +39,7 @@ SHA-256 checksums are maintained in the root `integrity.sha256` manifest. The cu
 
 ## Status
 
-`download_status`: **NO_FILES_PUBLISHED_BY_MAST**
+`download_status`: **RETRIEVAL_BLOCKED_DNS_FIREWALL**  
+`upstream_status`: **PUBLISHED_AT_MAST**
 
-Retrieval was attempted on 2026-02-20. The NASA MAST archive did not return any calibration-level 0/1 (RAW) data products for Sector 1751 within the query window (2026-01-15 → 2026-01-22). No RAW files have been downloaded, processed, or interpreted. This repository is Layer-1 RAW only — no Layer-2 edits, no Gate-6 actions.
+Retrieval was attempted on 2026-02-20. DNS resolution for `archive.stsci.edu`, `mast.stsci.edu`, and `heasarc.gsfc.nasa.gov` failed due to environment-level network controls in the execution environment. This is an environment constraint — it does **not** imply non-publication. Independent evidence (DOI registration, MAST bulk-download listing) confirms that Raw FFIs and Calibrated FFIs for Sector 1751 are published at MAST. No RAW files have been ingested into Layer-1 custody. This repository is Layer-1 RAW only — no Layer-2 edits, no Gate-6 actions.

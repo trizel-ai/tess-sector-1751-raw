@@ -1,11 +1,11 @@
 # SHA-256 Integrity Manifest
 # TRIZEL Layer-1 Raw Observation Source
 # Repository: tess-sector-1751-raw
-# Generated: 2026-02-20T01:26:59Z
+# Generated: 2026-02-20T02:14:08Z
 # Schema Version: 1.0.0
 
-aa31b8463b8a6dcdeff9e466cae99ad0da3c14ff7c1afac22f7206c4029ccfd7  ./README.md
+30a904167a29d01b1084dceebf4674084e793422270c1bdcf146593560e16ccd  ./README.md
 4a53ebd69a460475d72d98ce05a43d33738fe0f42c46168fb0242803d8e71432  ./observation.meta.json
 4499e9591b5b3fa523da21c97ba23611fffb322fd13ac96cfbd4f6b5eff959ea  ./provenance.json
-2ec72609d4f7b7502ee4e26ab1ca3a45ff1d2403fdb77f82fd57e1ca49bc6ec3  ./raw/tess/sector-1751/2026-01-15_2026-01-22/MAST_QUERY_SNAPSHOT.json
-04eed7984ccfc106d6d9512f2d2451697ac1bf6b430bb45ede8806e884d54ad0  ./raw/tess/sector-1751/2026-01-15_2026-01-22/README.md
+ff2de29eb502524f7cbde0309fd5a85d7e148ddd1738e8019081d5a4df9619d2  ./raw/tess/sector-1751/2026-01-15_2026-01-22/MAST_QUERY_SNAPSHOT.json
+7105bf677bcc063c9c12dc2dd80d06a4226b382490e32c533d358ad42fd53f97  ./raw/tess/sector-1751/2026-01-15_2026-01-22/README.md

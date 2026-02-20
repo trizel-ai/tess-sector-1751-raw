@@ -19,8 +19,26 @@
     "_note": "Parameters are based on MAST TAP/API standard fields; exact values to be confirmed at download time."
   },
   "expected_products": ["FFI", "TPF", "LCF"],
-  "download_status": "NO_FILES_PUBLISHED_BY_MAST",
-  "mast_query_result": "No RAW files published by MAST at this time. Retrieval attempted 2026-02-20; NASA MAST archive did not return any calib_level 0/1 data products for Sector 1751 within the query window.",
+  "download_status": "RETRIEVAL_BLOCKED_DNS_FIREWALL",
+  "retrieval_environment_note": "Retrieval attempted 2026-02-20 from Copilot-managed environment; DNS resolution failed for archive.stsci.edu, mast.stsci.edu, and heasarc.gsfc.nasa.gov due to environment-level network controls. This is an environment constraint, NOT a statement of non-publication.",
+  "upstream_status": "PUBLISHED_AT_MAST",
+  "mast_publication_evidence": {
+    "raw_ffis": {
+      "doi": "10.17909/x4aj-7547",
+      "description": "TESS Raw Full Frame Images: Sector 1751",
+      "bulk_download_script": "https://archive.stsci.edu/missions/tess/download_scripts/sector/tesscurl_sector_1751_ffir.sh"
+    },
+    "calibrated_ffis": {
+      "doi": "10.17909/mrs3-bw92",
+      "description": "TESS Calibrated Full Frame Images: Sector 1751",
+      "bulk_download_script": "https://archive.stsci.edu/missions/tess/download_scripts/sector/tesscurl_sector_1751_ffic.sh"
+    },
+    "archived_ffi_frame_count": 1835,
+    "archived_ffi_frame_count_source": "TESS Science Support Center / arXiv:2602.12364",
+    "bulk_downloads_page": "https://archive.stsci.edu/tess/bulk_downloads/bulk_downloads_ffi-tp-lc-dv.html",
+    "mast_access_article": "https://archive.stsci.edu/contents/newsletters/january-2026/tess-3i-atlas"
+  },
   "created_at_utc": "2026-02-20T00:58:42Z",
-  "retrieval_attempted_utc": "2026-02-20T01:26:59Z"
+  "retrieval_attempted_utc": "2026-02-20T01:26:59Z",
+  "publication_evidence_recorded_utc": "2026-02-20T02:14:08Z"
 }

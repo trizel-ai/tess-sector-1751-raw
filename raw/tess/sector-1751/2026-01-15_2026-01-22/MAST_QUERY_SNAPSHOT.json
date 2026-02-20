@@ -19,6 +19,8 @@
     "_note": "Parameters are based on MAST TAP/API standard fields; exact values to be confirmed at download time."
   },
   "expected_products": ["FFI", "TPF", "LCF"],
-  "download_status": "PENDING_RAW_DOWNLOAD",
-  "created_at_utc": "2026-02-20T00:58:42Z"
+  "download_status": "NO_FILES_PUBLISHED_BY_MAST",
+  "mast_query_result": "No RAW files published by MAST at this time. Retrieval attempted 2026-02-20; NASA MAST archive did not return any calib_level 0/1 data products for Sector 1751 within the query window.",
+  "created_at_utc": "2026-02-20T00:58:42Z",
+  "retrieval_attempted_utc": "2026-02-20T01:26:59Z"
 }

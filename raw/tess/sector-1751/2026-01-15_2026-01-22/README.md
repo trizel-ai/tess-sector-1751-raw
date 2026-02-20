@@ -1,7 +1,7 @@
 # TESS Sector-1751 — Layer-1 RAW Ingest Snapshot (2026-01-15 → 2026-01-22)
 
 **Layer**: 1 — RAW ingest snapshot only.  
-**RAW files**: NOT PRESENT — download is PENDING.  
+**RAW files**: NOT PRESENT — No RAW files published by MAST at this time.  
 **No interpretation. No results. No DOI.**
 
 ## Authority
@@ -19,10 +19,10 @@ Official TESS archive: <https://archive.stsci.edu/tess/>
 
 ## Integrity
 
-SHA-256 checksums will be added to the root `integrity.sha256` manifest once RAW files are downloaded and verified. The current manifest covers only the snapshot metadata files added by this PR.
+SHA-256 checksums are maintained in the root `integrity.sha256` manifest. The current manifest covers only the snapshot metadata files.
 
 ## Status
 
-`download_status`: **PENDING_RAW_DOWNLOAD**
+`download_status`: **NO_FILES_PUBLISHED_BY_MAST**
 
-This snapshot records the retrieval plan only. No scientific data has been downloaded, processed, or interpreted. This repository is Layer-1 RAW only — no Layer-2 edits, no Gate-6 actions.
+Retrieval was attempted on 2026-02-20. The NASA MAST archive did not return any calibration-level 0/1 (RAW) data products for Sector 1751 within the query window (2026-01-15 → 2026-01-22). No RAW files have been downloaded, processed, or interpreted. This repository is Layer-1 RAW only — no Layer-2 edits, no Gate-6 actions.

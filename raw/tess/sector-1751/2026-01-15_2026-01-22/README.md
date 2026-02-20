@@ -40,6 +40,6 @@ SHA-256 checksums are maintained in the root `integrity.sha256` manifest. The cu
 ## Status
 
 `download_status`: **RETRIEVAL_BLOCKED_DNS_FIREWALL**  
-`upstream_status`: **PUBLISHED_AT_MAST**
+`upstream_publication`: **CONFIRMED AT MAST**
 
-Retrieval was attempted on 2026-02-20. DNS resolution for `archive.stsci.edu`, `mast.stsci.edu`, and `heasarc.gsfc.nasa.gov` failed due to environment-level network controls in the execution environment. This is an environment constraint — it does **not** imply non-publication. Independent evidence (DOI registration, MAST bulk-download listing) confirms that Raw FFIs and Calibrated FFIs for Sector 1751 are published at MAST. No RAW files have been ingested into Layer-1 custody. This repository is Layer-1 RAW only — no Layer-2 edits, no Gate-6 actions.
+Upstream FFIs are published at MAST (see DOIs). This environment could not retrieve them due to DNS/firewall restrictions. No ingestion is claimed.

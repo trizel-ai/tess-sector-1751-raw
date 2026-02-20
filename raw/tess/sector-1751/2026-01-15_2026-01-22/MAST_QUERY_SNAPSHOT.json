@@ -1,0 +1,24 @@
+{
+  "observation_id": "OBS-TESS-2026-01-15_22-CLAIM-001",
+  "mission": "TESS",
+  "sector": "1751",
+  "time_window_utc": {
+    "date_min": "2026-01-15",
+    "date_max": "2026-01-22"
+  },
+  "authority": "NASA MAST",
+  "retrieval_mode": "official_archive_reference",
+  "mast_portal_url": "https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html",
+  "query_parameters": {
+    "mission": "TESS",
+    "sector": 1751,
+    "t_min": "2026-01-15",
+    "t_max": "2026-01-22",
+    "dataproduct_type": ["IMAGE", "TIMESERIES"],
+    "calib_level": [0, 1],
+    "_note": "Parameters are based on MAST TAP/API standard fields; exact values to be confirmed at download time."
+  },
+  "expected_products": ["FFI", "TPF", "LCF"],
+  "download_status": "PENDING_RAW_DOWNLOAD",
+  "created_at_utc": "2026-02-20T00:58:42Z"
+}

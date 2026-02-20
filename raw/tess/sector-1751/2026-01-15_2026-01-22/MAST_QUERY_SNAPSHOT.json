@@ -19,6 +19,18 @@
     "_note": "Parameters are based on MAST TAP/API standard fields; exact values to be confirmed at download time."
   },
   "expected_products": ["FFI", "TPF", "LCF"],
-  "download_status": "PENDING_RAW_DOWNLOAD",
-  "created_at_utc": "2026-02-20T00:58:42Z"
+  "download_status": "RETRIEVAL_BLOCKED_DNS_FIREWALL",
+  "upstream_publication": {
+    "calibrated_ffis_doi": "10.17909/mrs3-bw92",
+    "raw_ffis_doi": "10.17909/x4aj-7547",
+    "bulk_download_page": "https://archive.stsci.edu/missions/tess/download_scripts/sector/",
+    "notes": "Upstream publication confirmed; this repo does not yet ingest or host files."
+  },
+  "retrieval_environment": {
+    "actor": "github-actions/copilot",
+    "limitation": "DNS/firewall blocked access to mast/archive hosts"
+  },
+  "created_at_utc": "2026-02-20T00:58:42Z",
+  "retrieval_attempted_utc": "2026-02-20T01:26:59Z",
+  "publication_evidence_recorded_utc": "2026-02-20T02:14:08Z"
 }
